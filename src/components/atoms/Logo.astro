@@ -1,6 +1,15 @@
 ---
+import Picture from "~/components/core/Picture.astro";
 ---
 
 <span class="self-center ml-2 text-2xl font-extrabold text-gray-900 whitespace-nowrap dark:text-white">
-	🚀 AstroWind</span
->
+  <!-- IndieDjango -->
+  <Picture
+    class="rounded-lg"
+    src={import("~/assets/images/profile.png")}
+    widths={[50, 50]}
+    sizes="(max-width: 768px) 100vw, 50px"
+    alt="IndieDjango Logo"
+    aspectRatio="1:1"
+  />
+</span>
