@@ -1,14 +1,14 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'IndieDjango',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://indiedjango.com',
 	basePathname: '/',
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'IndieDjango',
+	description: '🚀 The community for Indie Makers that uses Django.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleSiteVerificationId: '',
 };
 
 export const BLOG = {
